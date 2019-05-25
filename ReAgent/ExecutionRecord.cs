@@ -39,7 +39,12 @@ namespace ReAgent
 
         public override bool Equals(object obj)
         {
-            return base.Equals(obj);
+            if (obj == this) return true;
+            if (!(obj is ExecutionRecord)) return false;
+            ExecutionRecord other = obj as ExecutionRecord;
+            return Timestamp == other.Timestamp
+                && Command.Equals(other.Command)
+                && Operation.Equals(other.Operation);
         }
 
         public enum Operations
