@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28917.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReAgent", "ReAgent\ReAgent.csproj", "{879CCA27-13AE-4E92-838D-400349CBC0F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReAgent.Tests", "ReAgent.Tests\ReAgent.Tests.csproj", "{D1382C0C-4C37-4F41-B361-4230BE3D22ED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{879CCA27-13AE-4E92-838D-400349CBC0F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{879CCA27-13AE-4E92-838D-400349CBC0F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{879CCA27-13AE-4E92-838D-400349CBC0F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{879CCA27-13AE-4E92-838D-400349CBC0F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1382C0C-4C37-4F41-B361-4230BE3D22ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1382C0C-4C37-4F41-B361-4230BE3D22ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1382C0C-4C37-4F41-B361-4230BE3D22ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1382C0C-4C37-4F41-B361-4230BE3D22ED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {70D117DC-8499-4FC5-BE81-450A3F08843E}
+	EndGlobalSection
+EndGlobal
